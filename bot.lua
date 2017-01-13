@@ -311,7 +311,7 @@ if msg then
 	sendMessage(msg.chat.id,list,true,nil,true)
 	
 	elseif msg.text:match("^/version") then
-	sendMessage(msg.chat.id,'*pm resan Bot*\n\n_Developer_ > [Mehran](https://telegram.me/sudo_tokhs_telegram)\n[My Channel](https://telegram.me/plugins_free)\n\n _Bot Version_ : *4*',true,nil,true)
+	sendMessage(msg.chat.id,'*pm resan Bot*\n\n_Developer_ > [SHAHINXT](https://telegram.me/shahin_xtbot)\n[My Channel](https://telegram.me/robosaz_xt)\n\n _Bot Version_ : *6*',true,nil,true)
 	
     elseif msg.text:match("^/help") and not is_admin(msg) then
 	sendMessage(msg.chat.id,'*Black Support Bot Help:*\n\n\n `-` /version\n`نمایش ورژن ربات`\n\n `-` /plist\n`دریافت لیست قیمت ها برای‌خرید گروه`\n\n `-` /start\n`دریافت اطلاعاتی درباره خرید گروه`',true,nil,true)
