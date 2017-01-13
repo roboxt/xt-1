@@ -1,11 +1,11 @@
-local bot_api_key = "توکن ربات" --Your telegram bot api key
+local bot_api_key = "287088244:AAHVPxUz52xfWSakJ6YbfZh_KZR-QbmDKYo" --Your telegram bot api key
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]] 
 
 function is_admin(msg)
   local var = false
-  local admins = {ایدیتون}
+  local admins = {186280031}
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
@@ -169,7 +169,7 @@ function bot_run()
 
 	bot = bot.result
 
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.."\nDeveloper > @MehdiHS\nChannel > @Black_CH"
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.."\nDeveloper > @robosaz_xt\nChannel > @Black_CH"
 	print(bot_info)
 
 	last_update = last_update or 0
